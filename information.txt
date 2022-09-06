@@ -1,0 +1,2 @@
+PLOS LaTeX template:
+https://journals.plos.org/plosone/s/latex
