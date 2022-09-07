@@ -4,7 +4,7 @@ BIBDIR:=src/bibliography
 MEDIADIR:=src/media
 ODIR:=out
 TARGET:=main
-OPTIONS:=-pdf
+OPTIONS:=-pdf -shell-escape
 TEX_FILES:=$(wildcard $(SRCDIR)/*.tex)
 COMPILATION_FILES:=$(filter-out src/$(TARGET)_expanded.tex, $(TEX_FILES))
 
