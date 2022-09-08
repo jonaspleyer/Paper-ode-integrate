@@ -96,11 +96,14 @@
 \usepackage[nopatch=eqnum]{microtype}
 \DisableLigatures[f]{encoding = *, family = * }
 
+% color can be used to apply background shading to table cells only
+\usepackage{xcolor}
+
 % syntax highlighting of code
 \usepackage[outputdir=../out]{minted}
-
-% color can be used to apply background shading to table cells only
-\usepackage[table]{xcolor}
+\definecolor{bg}{HTML}{282828} % from https://github.com/kevinsawicki/monokai
+\setminted{autogobble=true,bgcolor=bg,linenos=true,style=monokai}
+% \setmintedinline
 
 % array package and thick rules for tables
 \usepackage{array}
